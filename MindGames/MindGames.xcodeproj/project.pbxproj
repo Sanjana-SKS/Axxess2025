@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66617F562D6AD5C80092251B /* MindGamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66617F552D6AD5C80092251B /* MindGamesApp.swift */; };
+		66617F582D6AD5C80092251B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66617F572D6AD5C80092251B /* ContentView.swift */; };
+		66617F5A2D6AD5C80092251B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66617F592D6AD5C80092251B /* Item.swift */; };
+		66617F5C2D6AD5CB0092251B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66617F5B2D6AD5CB0092251B /* Assets.xcassets */; };
+		66617F5F2D6AD5CB0092251B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66617F5E2D6AD5CB0092251B /* Preview Assets.xcassets */; };
+		66617F692D6AD5CC0092251B /* MindGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66617F682D6AD5CC0092251B /* MindGamesTests.swift */; };
+		66617F732D6AD5CC0092251B /* MindGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66617F722D6AD5CC0092251B /* MindGamesUITests.swift */; };
+		66617F752D6AD5CC0092251B /* MindGamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66617F742D6AD5CC0092251B /* MindGamesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66617F652D6AD5CC0092251B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66617F4A2D6AD5C80092251B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66617F512D6AD5C80092251B;
+			remoteInfo = MindGames;
+		};
+		66617F6F2D6AD5CC0092251B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66617F4A2D6AD5C80092251B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66617F512D6AD5C80092251B;
+			remoteInfo = MindGames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66617F522D6AD5C80092251B /* MindGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66617F552D6AD5C80092251B /* MindGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindGamesApp.swift; sourceTree = "<group>"; };
+		66617F572D6AD5C80092251B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66617F592D6AD5C80092251B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		66617F5B2D6AD5CB0092251B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66617F5E2D6AD5CB0092251B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66617F642D6AD5CC0092251B /* MindGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66617F682D6AD5CC0092251B /* MindGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindGamesTests.swift; sourceTree = "<group>"; };
+		66617F6E2D6AD5CC0092251B /* MindGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66617F722D6AD5CC0092251B /* MindGamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindGamesUITests.swift; sourceTree = "<group>"; };
+		66617F742D6AD5CC0092251B /* MindGamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindGamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66617F4F2D6AD5C80092251B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66617F612D6AD5CC0092251B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66617F6B2D6AD5CC0092251B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66617F492D6AD5C80092251B = {
+			isa = PBXGroup;
+			children = (
+				66617F542D6AD5C80092251B /* MindGames */,
+				66617F672D6AD5CC0092251B /* MindGamesTests */,
+				66617F712D6AD5CC0092251B /* MindGamesUITests */,
+				66617F532D6AD5C80092251B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66617F532D6AD5C80092251B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66617F522D6AD5C80092251B /* MindGames.app */,
+				66617F642D6AD5CC0092251B /* MindGamesTests.xctest */,
+				66617F6E2D6AD5CC0092251B /* MindGamesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66617F542D6AD5C80092251B /* MindGames */ = {
+			isa = PBXGroup;
+			children = (
+				66617F552D6AD5C80092251B /* MindGamesApp.swift */,
+				66617F572D6AD5C80092251B /* ContentView.swift */,
+				66617F592D6AD5C80092251B /* Item.swift */,
+				66617F5B2D6AD5CB0092251B /* Assets.xcassets */,
+				66617F5D2D6AD5CB0092251B /* Preview Content */,
+			);
+			path = MindGames;
+			sourceTree = "<group>";
+		};
+		66617F5D2D6AD5CB0092251B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66617F5E2D6AD5CB0092251B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66617F672D6AD5CC0092251B /* MindGamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				66617F682D6AD5CC0092251B /* MindGamesTests.swift */,
+			);
+			path = MindGamesTests;
+			sourceTree = "<group>";
+		};
+		66617F712D6AD5CC0092251B /* MindGamesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66617F722D6AD5CC0092251B /* MindGamesUITests.swift */,
+				66617F742D6AD5CC0092251B /* MindGamesUITestsLaunchTests.swift */,
+			);
+			path = MindGamesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66617F512D6AD5C80092251B /* MindGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66617F782D6AD5CC0092251B /* Build configuration list for PBXNativeTarget "MindGames" */;
+			buildPhases = (
+				66617F4E2D6AD5C80092251B /* Sources */,
+				66617F4F2D6AD5C80092251B /* Frameworks */,
+				66617F502D6AD5C80092251B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindGames;
+			productName = MindGames;
+			productReference = 66617F522D6AD5C80092251B /* MindGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66617F632D6AD5CC0092251B /* MindGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66617F7B2D6AD5CC0092251B /* Build configuration list for PBXNativeTarget "MindGamesTests" */;
+			buildPhases = (
+				66617F602D6AD5CC0092251B /* Sources */,
+				66617F612D6AD5CC0092251B /* Frameworks */,
+				66617F622D6AD5CC0092251B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66617F662D6AD5CC0092251B /* PBXTargetDependency */,
+			);
+			name = MindGamesTests;
+			productName = MindGamesTests;
+			productReference = 66617F642D6AD5CC0092251B /* MindGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66617F6D2D6AD5CC0092251B /* MindGamesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66617F7E2D6AD5CC0092251B /* Build configuration list for PBXNativeTarget "MindGamesUITests" */;
+			buildPhases = (
+				66617F6A2D6AD5CC0092251B /* Sources */,
+				66617F6B2D6AD5CC0092251B /* Frameworks */,
+				66617F6C2D6AD5CC0092251B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66617F702D6AD5CC0092251B /* PBXTargetDependency */,
+			);
+			name = MindGamesUITests;
+			productName = MindGamesUITests;
+			productReference = 66617F6E2D6AD5CC0092251B /* MindGamesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66617F4A2D6AD5C80092251B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					66617F512D6AD5C80092251B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					66617F632D6AD5CC0092251B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 66617F512D6AD5C80092251B;
+					};
+					66617F6D2D6AD5CC0092251B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 66617F512D6AD5C80092251B;
+					};
+				};
+			};
+			buildConfigurationList = 66617F4D2D6AD5C80092251B /* Build configuration list for PBXProject "MindGames" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66617F492D6AD5C80092251B;
+			productRefGroup = 66617F532D6AD5C80092251B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66617F512D6AD5C80092251B /* MindGames */,
+				66617F632D6AD5CC0092251B /* MindGamesTests */,
+				66617F6D2D6AD5CC0092251B /* MindGamesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66617F502D6AD5C80092251B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66617F5F2D6AD5CB0092251B /* Preview Assets.xcassets in Resources */,
+				66617F5C2D6AD5CB0092251B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66617F622D6AD5CC0092251B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66617F6C2D6AD5CC0092251B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66617F4E2D6AD5C80092251B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66617F582D6AD5C80092251B /* ContentView.swift in Sources */,
+				66617F5A2D6AD5C80092251B /* Item.swift in Sources */,
+				66617F562D6AD5C80092251B /* MindGamesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66617F602D6AD5CC0092251B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66617F692D6AD5CC0092251B /* MindGamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66617F6A2D6AD5CC0092251B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66617F752D6AD5CC0092251B /* MindGamesUITestsLaunchTests.swift in Sources */,
+				66617F732D6AD5CC0092251B /* MindGamesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66617F662D6AD5CC0092251B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66617F512D6AD5C80092251B /* MindGames */;
+			targetProxy = 66617F652D6AD5CC0092251B /* PBXContainerItemProxy */;
+		};
+		66617F702D6AD5CC0092251B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66617F512D6AD5C80092251B /* MindGames */;
+			targetProxy = 66617F6F2D6AD5CC0092251B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66617F762D6AD5CC0092251B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66617F772D6AD5CC0092251B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66617F792D6AD5CC0092251B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindGames/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MR97D8627;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-354.MindGames";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66617F7A2D6AD5CC0092251B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindGames/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MR97D8627;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-354.MindGames";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66617F7C2D6AD5CC0092251B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MR97D8627;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-354.MindGamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindGames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindGames";
+			};
+			name = Debug;
+		};
+		66617F7D2D6AD5CC0092251B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MR97D8627;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-354.MindGamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindGames.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindGames";
+			};
+			name = Release;
+		};
+		66617F7F2D6AD5CC0092251B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MR97D8627;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-354.MindGamesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindGames;
+			};
+			name = Debug;
+		};
+		66617F802D6AD5CC0092251B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MR97D8627;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-354.MindGamesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindGames;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66617F4D2D6AD5C80092251B /* Build configuration list for PBXProject "MindGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66617F762D6AD5CC0092251B /* Debug */,
+				66617F772D6AD5CC0092251B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66617F782D6AD5CC0092251B /* Build configuration list for PBXNativeTarget "MindGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66617F792D6AD5CC0092251B /* Debug */,
+				66617F7A2D6AD5CC0092251B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66617F7B2D6AD5CC0092251B /* Build configuration list for PBXNativeTarget "MindGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66617F7C2D6AD5CC0092251B /* Debug */,
+				66617F7D2D6AD5CC0092251B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66617F7E2D6AD5CC0092251B /* Build configuration list for PBXNativeTarget "MindGamesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66617F7F2D6AD5CC0092251B /* Debug */,
+				66617F802D6AD5CC0092251B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66617F4A2D6AD5C80092251B /* Project object */;
+}
